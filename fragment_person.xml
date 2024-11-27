@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/round">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:textSize="29dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="690dp"
+        android:text="Log out" />
+<RelativeLayout
+    android:layout_width="390dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="230dp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/red">
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:text=" How does the blood donation process work?"
+        android:textSize="17dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="34dp"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="348dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F1D5D5"
+        app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/yellow">
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text=" What should I do after donating blood?"
+            android:textSize="18dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="7dp"
+            android:background="#F6F4DF"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/red">
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:text=" Will it hurt when you insert the needle?"
+            android:textSize="18dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F1D5D5"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/yellow">
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text=" How long does a blood donation take?"
+            android:textSize="18dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="7dp"
+            android:background="#F6F4DF"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/red">
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:text="How long will it take to replenish the pint of blood
+                      I donate?"
+            android:textSize="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="15dp"
+            android:background="#F1D5D5"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/yellow">
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:text=" How often can I donate blood?"
+            android:textSize="18dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="7dp"
+            android:background="#F6F4DF"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/red">
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:text=" Who can donate blood?"
+            android:textSize="18dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="34dp"
+            android:layout_height="21dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="348dp"
+            android:layout_marginBottom="8dp"
+            android:background="#F1D5D5"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_24" />
+
+    </RelativeLayout>
+</FrameLayout>
+</ScrollView>

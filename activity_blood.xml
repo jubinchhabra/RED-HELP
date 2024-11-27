@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="301dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blood">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Donate blood so that no life is lost due to its paucity. It fills the donor with vitality. Blood donation never brings any weakness rather it is a remedy for many diseases in itself.
+There is no bigger service and charity than donating blood. Go for this cause and be a Mankind’s savior.Owing to His Holiness’s moral support people are able to start afresh with self-confidence, forbearance and the will to live.
+The positive view of life even amidst the ruins and destruction becomes clear when His Holiness teaches them the true meditation.\n
+
+His Holiness has acted for the entire humanity; whether it is people trapped under the debris, or helping people mired in poverty.\n
+
+In the Era of Selfishness, where people has thirst for the blood of others. There are many more “Super Heroes” (Real Humans) who used to donate blood to save the life of others without any sort of consideration.\n
+
+Blood Donation is one of 137 social welfare activities run by Dera Sacha Sauda. Thousands of volunteers have signed a pledge for a regular donation of blood after an interval of every 3 months under the guidance of Revered Saint Dr. Gurmeet Ram Rahim Singh Ji Insan.\n
+
+Dera Sacha Sauda has made three world records in the domain of Blood Donation. The first record was held in the Guinness Book of Records on 7th December 2003 with a donation of 15,432 units of blood in a single day. On 10th Oct 2004, the record made in 2003 was broken and set a new record with a donation of 17,291 units. The journey has not stopped, Volunteers again broken the record by donating 43,732 units in Single Day. This was all possible due to principles and guidance given by His Holiness.\n
+
+Guru Ji proclaimed that “Khoon Daan is Mahadaan”, though life and death is in the hands of Almighty but by donating blood one is becoming a medium to save someone from dying, Besides, spiritual benefits, there are several health benefits associated with blood donation like Blood purification, reduced chances of heart failure, etc.\n
+
+The spirit of doing good deeds filled by Revered Guru Ji is beyond hearing. Tender aged children were seen requesting the blood bank team to take their blood. Not only children, but the same is also the case with old aged people. This kind of wonder can only be observed in disciples of Revered Guru Ji.\n
+
+The volunteers of Dera Sacha Sauda are globally recognized as “True Blood Pump”. As one call for blood donation brings more than enough volunteers. It has been experienced during blood donation camps organized at Dera that arrangements made by blood bank teams became inadequate.\n
+ Dera organized blood donation camps on Spiritual Congregations which is held on the last Sunday of every month. The blood is donated to teams called from PAN India for serving noble causes like for Thalassemia Patients, People who hit with an accident.\n
+
+Our Achievements in the sphere of Blood Donation\n
+List of Blood Donation World Records\n
+List of Blood Donation Mega Camps\n
+List of Blood Banks established by Dera Sacha Sauda\n
+List of Blood Drives in Foreign
+
+
+
+
+"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flipper" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reqiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/round">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please fill all the fields for"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:textSize="29dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Requirement"
+            android:textStyle="bold"
+            android:layout_marginTop="94dp"
+            android:textSize="29dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text=""
+                android:hint="Patient Name"/>
+
+            <EditText
+                android:id="@+id/editTextText16"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Contact Person Name"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText17"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Blood Group"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText18"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="District"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText19"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="City/Village Name"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText20"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Hospital Name "
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText22"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Required Units"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText23"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextText24"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Required Date"
+                android:inputType="date"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="30dp"
+
+                android:text="Submit"
+                android:background="@drawable/button"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ambulance">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency help"
+        android:textColor="#F30808"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Needed ?"
+        android:textColor="#F30808"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="261dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="36dp"
+        android:text="Just Tap the Button to call"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="44dp"
+        android:elevation="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#DC0404"
+
+            android:clickable="true"
+            android:outlineSpotShadowColor="@color/black"
+            app:borderWidth="10dp"
+            app:fabCustomSize="190dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:maxImageSize="90dp"
+            app:srcCompat="@drawable/siren" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="409dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_local_police_24" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Police"
+                    android:textColor="#F30808"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="65dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 100"
+
+                    android:textColor="@color/white"
+                    android:textSize="9dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_local_shipping_24" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Ambulance"
+                    android:textColor="#F30808"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="65dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 102"
+                    android:textColor="@color/white"
+                    android:textSize="9dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_woman_24" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="143dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Women Helpline"
+                    android:textColor="#F30808"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="65dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 1091"
+                    android:textColor="@color/white"
+                    android:textSize="9dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_local_fire_department_24" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Fire"
+                    android:textColor="#F30808"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="65dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 101"
+                    android:textColor="@color/white"
+                    android:textSize="9dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_surfing_24" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Disaster"
+                    android:textColor="#F30808"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Management"
+                    android:textColor="#F30808"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="67dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 108"
+                    android:textColor="@color/white"
+                    android:textSize="9dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/shape1"
+                android:elevation="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/baseline_flutter_dash_24" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="161dp"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="35dp"
+                    android:text="CYBER CRIME"
+                    android:textColor="#F30808"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="65dp"
+                    android:backgroundTint="#F30808"
+                    android:text="Call now at- 155620"
+                    android:textColor="@color/white"
+                    android:textSize="8dp" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
